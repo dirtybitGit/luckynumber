@@ -1,0 +1,14 @@
+.Numbers {
+    padding : 0.4rem;
+    /* margin-top : 1rem; */
+    /* margin-top: 1rem; */
+}
+
+.Numbers div {
+    display: inline-block;
+    width: 2rem;
+    padding: 0.3rem;
+    margin : 0 0.2rem 0 0.2rem;
+    border: 1px solid gray;
+    font-size: calc(15px + 2vmin);
+}
