@@ -12,3 +12,9 @@
     border: 1px solid gray;
     font-size: calc(15px + 2vmin);
 }
+
+.numbox {
+    border: 1px solid gray;
+    display: inline-table;
+    padding : 0.4rem 0.
+}

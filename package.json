@@ -28,5 +28,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://dirtybit.iptime.org:9092/num"
+  "homepage": "http://dirtybit.iptime.org:9092/num",
+  "displayName": "로또번호생성기"
 }

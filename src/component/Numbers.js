@@ -12,13 +12,17 @@ class Numbers extends Component {
      render() {
         const {num} = this.props
         return(
-            <div className="Numbers">
-                <div>{num.num1}</div>
-                <div>{num.num2}</div>
-                <div>{num.num3}</div>
-                <div>{num.num4}</div>
-                <div>{num.num5}</div>
-                <div>{num.num6}</div>
+            <div className='numLine'>
+                <div className='numbox'>
+                    <div className="Numbers">
+                        <div>{num.num1}</div>
+                        <div>{num.num2}</div>
+                        <div>{num.num3}</div>
+                        <div>{num.num4}</div>
+                        <div>{num.num5}</div>
+                        <div>{num.num6}</div>
+                    </div>
+                </div>
             </div>
         );
     }
