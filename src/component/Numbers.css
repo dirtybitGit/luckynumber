@@ -16,5 +16,13 @@
 .numbox {
     border: 1px solid gray;
     display: inline-table;
-    padding : 0.4rem 0.
+    margin : 0.3rem 0.5rem 0.3rem 0.5rem;
+}
+
+.numTitle {
+    text-align: left;
+    padding : 0.1rem 0 0.3rem 0.6rem;
+    color: white;
+    font-size: 15pt;
+    background-color: gray;
 }

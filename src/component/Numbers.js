@@ -14,6 +14,7 @@ class Numbers extends Component {
         return(
             <div className='numLine'>
                 <div className='numbox'>
+                    <div className='numTitle'>{num.key + 1}번째 숫자</div>
                     <div className="Numbers">
                         <div>{num.num1}</div>
                         <div>{num.num2}</div>
