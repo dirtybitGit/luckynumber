@@ -16,12 +16,12 @@ class Numbers extends Component {
                 <div className='numbox'>
                     <div className='numTitle'>{num.key + 1}번째 숫자</div>
                     <div className="Numbers">
-                        <div>{num.num1}</div>
-                        <div>{num.num2}</div>
-                        <div>{num.num3}</div>
-                        <div>{num.num4}</div>
-                        <div>{num.num5}</div>
-                        <div>{num.num6}</div>
+                        <div><span>{num.num1}</span></div>
+                        <div><span>{num.num2}</span></div>
+                        <div><span>{num.num3}</span></div>
+                        <div><span>{num.num4}</span></div>
+                        <div><span>{num.num5}</span></div>
+                        <div><span>{num.num6}</span></div>
                     </div>
                 </div>
             </div>

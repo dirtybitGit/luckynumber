@@ -1,17 +1,17 @@
 .top {
-    margin-top : 1.9rem;
-    margin-bottom: 1rem;
+    margin-top : 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .firstString {
     color:  #2E86B9;    
-    font-size: 100%;
+    font-size: 130%;
     text-align: center;
     margin-right: 120px;
 }
 
 .secondString {
     color:  #2E86B9;    
-    font-size: 200%;
+    font-size: 230%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }

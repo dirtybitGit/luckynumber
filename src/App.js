@@ -5,7 +5,7 @@ import NumberList from './component/NumberList';
 
 class App extends Component {
   
-  LineCount = 6;
+  LineCount = 5;
 
   state = {
     numbers : [
