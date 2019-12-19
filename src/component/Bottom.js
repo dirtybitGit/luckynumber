@@ -12,5 +12,5 @@ class Bottom extends Component {
         )
     }
 }
-
+ 
 export default Bottom;
