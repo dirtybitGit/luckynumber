@@ -63,17 +63,30 @@ class App extends Component {
     this.clearNumList();
 
     var newNum = [];
+    
+    var tmpNum = 0;
+
 
     for(var iIndex = 0; iIndex < this.LineCount; iIndex++) {
-      
+        var aryTmp = [];
+        for(var iIndex1 = 0; iIndex1 < 6; iIndex1++) {
+          tmpNum = this.getOneNum(100000);
+          while(aryTmp.indexOf(tmpNum) !== -1) {
+            tmpNum = this.getOneNum(100000);
+          }
+          aryTmp = aryTmp.concat(tmpNum);
+        }
+        aryTmp = aryTmp.sort(function(a,b){
+          return a - b;
+        });
         newNum = newNum.concat({
             key : iIndex,
-            num1 : this.getOneNum(100000), 
-            num2 : this.getOneNum(100000), 
-            num3 : this.getOneNum(100000), 
-            num4 : this.getOneNum(100000), 
-            num5 : this.getOneNum(100000), 
-            num6 : this.getOneNum(100000),
+            num1 : aryTmp[0], 
+            num2 : aryTmp[1], 
+            num3 : aryTmp[2], 
+            num4 : aryTmp[3],  
+            num5 : aryTmp[4],  
+            num6 : aryTmp[5]
         })
     }
 
