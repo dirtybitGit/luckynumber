@@ -109,6 +109,7 @@ class App extends Component {
     if (data) {
       this.setState({ QRResult: data });
       console.log(data);
+      window.open(data);
     }
   };
 
