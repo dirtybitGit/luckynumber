@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/lucky_number/static/css/main.5a4684dd.chunk.css",
+    "main.js": "/lucky_number/static/js/main.ccf56121.chunk.js",
+    "main.js.map": "/lucky_number/static/js/main.ccf56121.chunk.js.map",
+    "runtime-main.js": "/lucky_number/static/js/runtime-main.40a56035.js",
+    "runtime-main.js.map": "/lucky_number/static/js/runtime-main.40a56035.js.map",
+    "static/js/2.3cdf6d78.chunk.js": "/lucky_number/static/js/2.3cdf6d78.chunk.js",
+    "static/js/2.3cdf6d78.chunk.js.map": "/lucky_number/static/js/2.3cdf6d78.chunk.js.map",
+    "index.html": "/lucky_number/index.html",
+    "precache-manifest.18a3d87baf4d374cabc5e3662dc06686.js": "/lucky_number/precache-manifest.18a3d87baf4d374cabc5e3662dc06686.js",
+    "service-worker.js": "/lucky_number/service-worker.js",
+    "static/css/main.5a4684dd.chunk.css.map": "/lucky_number/static/css/main.5a4684dd.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40a56035.js",
+    "static/js/2.3cdf6d78.chunk.js",
+    "static/css/main.5a4684dd.chunk.css",
+    "static/js/main.ccf56121.chunk.js"
+  ]
+}
