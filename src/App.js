@@ -127,14 +127,18 @@ class App extends Component {
               delay={300}
               onError={this.QRHandleErr}
               onScan={this.QRHandleScan}
-              style={{ width: "100%" }}
+              className="QRScanArea"
             />
             <p>{this.state.QRResult}</p>
           </div>
         ) : (
           <NumberList numbers={numbers} />
         )}
-        <Bottom onRemake={this.handleRemake} onQRScan={this.onQRScan} />
+        <Bottom
+          onRemake={this.handleRemake}
+          onQRScan={this.onQRScan}
+          QRShow={QRShow}
+        />
       </div>
     );
   }

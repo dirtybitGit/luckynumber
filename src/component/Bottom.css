@@ -1,8 +1,9 @@
 .Btn {
-    margin-top: 10px;
-    padding : 10px 5rem 10px 5rem;
-    
-    font-size: 30px;
-    border-radius: 10px;
-    background-color: rgba(143, 143, 233, 0.808);
+  margin-top: 10px;
+  /* padding: 10px 5rem 10px 5rem; */
+  width: 10rem;
+  height: 4rem;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgba(143, 143, 233, 0.808);
 }
