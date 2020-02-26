@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-qr-reader": "^2.2.1",
     "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -28,6 +32,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://dirtybit.iptime.org:9092/num",
+  "homepage": "https://dirtybitgit.github.io/lucky",
   "displayName": "로또번호생성기"
 }
