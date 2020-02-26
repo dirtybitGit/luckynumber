@@ -13,7 +13,7 @@ class NumberList extends Component {
     return (
       <div>
         <div className="top">
-          <div className="firstString">재미로 보는(1637)</div>
+          <div className="firstString">재미로 보는</div>
           <div className="secondString">로또 번호 생성기</div>
         </div>
         <div>{list}</div>

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, BackHandler } from "react";
 import QrReader from "react-qr-reader";
 import "./App.css";
 import Bottom from "./component/Bottom";
@@ -98,6 +98,19 @@ class App extends Component {
   };
 
   componentDidMount() {
+    window.onbeforeunload = e => {
+      e.preventDefault();
+      if (this.state.QRShow) {
+        this.setState({ QRShow: false });
+      }
+    };
+    window.onpopstate = e => {
+      e.preventDefault();
+      if (this.state.QRShow) {
+        this.setState({ QRShow: false });
+      }
+    };
+
     this.handleRemake();
   }
 
@@ -107,9 +120,10 @@ class App extends Component {
 
   QRHandleScan = data => {
     if (data) {
+      if (this.state.QRResult != data) {
+        window.open(data);
+      }
       this.setState({ QRResult: data });
-      console.log(data);
-      window.open(data);
     }
   };
 
