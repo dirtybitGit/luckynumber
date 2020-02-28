@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "838f87a913e9ce33f05fb3040b42c338",
+    "revision": "4201608aed84c58c3ee31d471a52cd1b",
     "url": "/luckynumber/index.html"
   },
   {
-    "revision": "ad6ddb6f019425593795",
+    "revision": "af1e70151a9a914c9277",
     "url": "/luckynumber/static/css/main.4b1ec8d5.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/luckynumber/static/js/2.3cdf6d78.chunk.js"
   },
   {
-    "revision": "ad6ddb6f019425593795",
-    "url": "/luckynumber/static/js/main.2316c5ef.chunk.js"
+    "revision": "af1e70151a9a914c9277",
+    "url": "/luckynumber/static/js/main.010d3a84.chunk.js"
   },
   {
     "revision": "7920814e50e3599955e1",
