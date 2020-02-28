@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/luckynumber/static/css/main.4b1ec8d5.chunk.css",
-    "main.js": "/luckynumber/static/js/main.010d3a84.chunk.js",
-    "main.js.map": "/luckynumber/static/js/main.010d3a84.chunk.js.map",
+    "main.js": "/luckynumber/static/js/main.a21a409b.chunk.js",
+    "main.js.map": "/luckynumber/static/js/main.a21a409b.chunk.js.map",
     "runtime-main.js": "/luckynumber/static/js/runtime-main.d51dbda1.js",
     "runtime-main.js.map": "/luckynumber/static/js/runtime-main.d51dbda1.js.map",
     "static/js/2.3cdf6d78.chunk.js": "/luckynumber/static/js/2.3cdf6d78.chunk.js",
     "static/js/2.3cdf6d78.chunk.js.map": "/luckynumber/static/js/2.3cdf6d78.chunk.js.map",
     "index.html": "/luckynumber/index.html",
-    "precache-manifest.b4358b4d8b45ce8f2f83124445f8ffe5.js": "/luckynumber/precache-manifest.b4358b4d8b45ce8f2f83124445f8ffe5.js",
+    "precache-manifest.23944b033ce11c6ba64dde9e8cd24a5e.js": "/luckynumber/precache-manifest.23944b033ce11c6ba64dde9e8cd24a5e.js",
     "service-worker.js": "/luckynumber/service-worker.js",
     "static/css/main.4b1ec8d5.chunk.css.map": "/luckynumber/static/css/main.4b1ec8d5.chunk.css.map"
   },
@@ -16,6 +16,6 @@
     "static/js/runtime-main.d51dbda1.js",
     "static/js/2.3cdf6d78.chunk.js",
     "static/css/main.4b1ec8d5.chunk.css",
-    "static/js/main.010d3a84.chunk.js"
+    "static/js/main.a21a409b.chunk.js"
   ]
 }
